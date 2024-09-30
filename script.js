@@ -117,5 +117,6 @@ boton.addEventListener("click", () => {
     }//FinIf
 });
 
+
 //Inicio la cuenta atrás cuando el usuario se mete en la página web
 let contadorInterval = setInterval(cuentaAtras, 1000);
