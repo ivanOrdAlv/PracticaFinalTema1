@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Varela+Round&display=swap');
+
+*{
+	margin: 5px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.mostrarVerde{
+    color:#37DF34;
+}
+
+.mostrarAmarillo{
+    color:#dfa034;
+    margin: 10px;
+    scale:1.5;
+}
+
+.mostrarRojo{
+    color:#E93E1C;
+    margin-top: 10px;
+    scale: 1.8;
+}
+
+.negro{
+    color:black;
+}
+
+#contador{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+body{
+	font-family: 'Varela Round';
+	color: white;
+    background-color: #42ffe9ae;
+	background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
